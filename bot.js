@@ -9,7 +9,7 @@ const telegramToken = process.env.TELEGRAM_BOT_TOKEN;
 const chatId = process.env.TELEGRAM_CHAT_ID; // Chat ID của bạn (thay thế sau)
 
 // URL API của repository GitHub
-const repoApiUrl = 'https://api.github.com/repos/wormhole-foundation/wormhole-sdk-ts';
+const repoApiUrl = process.env.API_URL;
 const releasesApiUrl = `${repoApiUrl}/releases/latest`;
 const commitsApiUrl = `${repoApiUrl}/commits`;
 

@@ -20,8 +20,8 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/github-release-notifier-bot.git
-   cd github-release-notifier-bot
+   git clone https://github.com/hoanlv214/bot_tele_check_repo.git
+   cd bot_tele_check_repo
    ```
 
 2. Install the dependencies:
@@ -33,6 +33,7 @@ Before you begin, ensure you have met the following requirements:
    ```
    TELEGRAM_BOT_TOKEN=your_bot_token_here
    TELEGRAM_CHAT_ID=your_chat_id_here
+   GITHUB_TOKEN=your_github_token_here
    ```
 
 4. (Optional) If you want to increase the GitHub API request limit, add your GitHub personal access token to the `.env` file:
